@@ -38,7 +38,8 @@ const Projects = () => {
                   <p className="tracking-wide">{e.description}</p>
                   <div className="flex gap-2">
                     <a
-                      href="#"
+                      href={e.href}
+                      target="_blank"
                       className={`${
                         dark ? "dark-live-btn" : "light-live-btn"
                       } transition-all duration-200 font-semibold live-btn py-2 gap-2 px-6 flex justify-center items-center rounded-full`}
@@ -49,7 +50,8 @@ const Projects = () => {
                       </span>
                     </a>
                     <a
-                      href="#"
+                      href={e.source}
+                      target="_blank"
                       className={`${
                         dark ? "dark-src-btn" : "light-src-btn"
                       } transition-all duration-200 font-semibold live-btn py-2 gap-2 px-8 flex justify-center items-center rounded-full`}
