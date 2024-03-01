@@ -60,7 +60,7 @@ export default function HamburgerMenu() {
         <div
           className={`${
             dark ? "bg-[#374151]" : "bg-[#f3f4f6]"
-          } text-center p-2 text-white rounded-full `}
+          } text-center p-2 text-white rounded-full icon`}
         >
           {" "}
           <RxHamburgerMenu

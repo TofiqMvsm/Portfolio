@@ -17,7 +17,7 @@ export const projectData = [
     description:
       "The Mern Blog project is a full-stack web application built using the MERN stack (MongoDB, Express.js, React, Node.js). It provides users with functionalities to register, login, and logout. Authenticated users can create, edit, and delete their blog posts, which are displayed on their personal page. Visitors can view these posts and explore the site. Additionally, the project includes features such as user statistics and author profiles to enhance the user experience.",
     img: "../../public/images/blog (2).PNG",
-    href: "#",
+    href: "https://mern-blog-1-73kc.onrender.com/",
     source: "https://github.com/TofiqMvsm/mern-blog",
   },
   {
@@ -37,12 +37,12 @@ export const projectData = [
     description:
       "The Netflix Clone project is a collaborative effort that replicates the popular streaming platform Netflix. Built using React and Firebase, it offers users a wide range of functionalities, including browsing and watching various movies and TV series fetched dynamically from the TMDb API. Users can interact with the application by liking their favorite content and exploring different categories such as films, series, TV shows, and cartoons. This project not only showcases technical skills but also demonstrates collaboration and learning experiences gained through ",
     img: "../../public/images/third.PNG",
-    href: "https://netflix-project-iota.vercel.app/firstPage",
+    href: "https://netflixproject-onhg.onrender.com",
     source: "https://github.com/nivrep1/netflixProject/tree/main",
   },
   {
     id: 3,
-    heading: "Who Wants to Be a Millionaire?",
+    heading: "Who Wants to Be a Millionaire?(Not Responsive)",
     techStack: ["React", "useSound", "Css"],
     description:
       "The Who Wants to Be a Millionaire project is an interactive quiz application developed using React. Users can participate in a quiz game where they answer questions to earn virtual money. Correct answers lead to progressively harder questions, while incorrect answers result in the end of the game. Future developments for this project include expanding the question database, implementing leaderboards to track top performers, and enhancing the user interface for a more engaging experience.",

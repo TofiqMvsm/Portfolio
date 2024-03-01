@@ -9,7 +9,7 @@ const Projects = () => {
     <section
       className={`${
         dark ? "bg-gray-900" : "bg-white"
-      } flex justify-center items-center gap-4`}
+      } flex justify-center items-center gap-4 project-section`}
     >
       <div className="flex flex-col w-[65%] projects gap-12 py-12">
         <h1 className="text-center capitalize text-4xl font-semibold">

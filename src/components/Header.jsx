@@ -23,7 +23,7 @@ const Header = () => {
   return (
     <header
       className={`sticky top-0 z-10 border-b-4  flex w-[100%] justify-around items-center h-[70px] ${
-        dark ? "dark:bg-gray-900 border-[#0c111c]" : "bg-white"
+        dark ? "  bg-gray-900 border-[#0c111c]" : "bg-white"
       }`}
     >
        <div className="logo">

@@ -206,6 +206,10 @@
         width: 100%;
         padding: 0 1rem;
     }
+
+    .project-section{
+        padding: 2rem 0;
+       }
     
   }
   
@@ -220,13 +224,24 @@
     }
 
     .about-div h1{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     
   }
 
 
   @media only screen and (max-width: 768px) {
+
+    header{
+        justify-content: space-between !important;
+    }
+    .logo{
+        margin-left: 80px;
+    }
+
+    .icon{
+        margin-right: 80px;
+    }
 
     .heading{
     font-size: 3rem;
@@ -237,7 +252,9 @@
         width: 100%;
     }
     
-
+    .project-context p{
+        font-size: 14px;
+    }
     .project-div{
         gap: 5rem;
         padding: 0;
