@@ -2,6 +2,7 @@ import React,{useContext, useRef} from 'react'
 import { useNavigate } from 'react-router-dom';
 import { ProjectContext } from '../context/ProjectContext';
 import { useClickAway } from "react-use";
+import profile from '../../public/assets/images/profile.jpeg'
 const Home = () => {
   const ref = useRef(null);
   const {setShowMenu} = useContext(ProjectContext)
@@ -12,7 +13,7 @@ const Home = () => {
     <section  className={`${dark ? 'dark:bg-gray-900' : 'bg-white'} text-center relative h-screen flex flex-col justify-center items-center gap-5 px-5`}>
     
         <div className={`profile-home w-[200px] h-[200px] border-[5px] rounded-full ${dark ? 'border-[#9296a0]' : 'border[#e5e7eb]'}`}>
-          <img src="../../public/images/profile.jpeg" className='rounded-full w-full h-full object-cover' alt="" />
+          <img src={profile} className='rounded-full w-full h-full object-cover' alt="" />
         </div>
         <span className={`${dark ? 'text-[#ffb703]' : 'text-[#72b626]'} font-semibold text-[22px]`}>Hey, I'm</span>
         <h1 className='font-semibold text-7xl capitalize heading'>Tofiq Movsumov</h1> 

@@ -19,8 +19,10 @@ const Projects = () => {
             Projects
           </span>
         </h1>
+ 
         <div className="flex flex-col gap-16">
           {projectData.map((e) => {
+           
             return (
               <div key={e.id} className="flex items-center flex-wrap-reverse">
                 <div className="w-1/2 flex flex-col gap-5   project-context">
@@ -65,7 +67,7 @@ const Projects = () => {
                   </div>
                 </div>
                 <div className="w-1/2 project-img">
-                  <img src={e.img} alt="laptop" className="w-full h-full object-contain" />
+                  <img src={e.img} alt={e.id} className="w-full h-full object-contain" />
                 </div>
               </div>
             );
