@@ -2,7 +2,7 @@ import React,{useContext, useRef} from 'react'
 import { useNavigate } from 'react-router-dom';
 import { ProjectContext } from '../context/ProjectContext';
 import { useClickAway } from "react-use";
-import profile from '../../public/assets/images/profile.jpeg'
+import profile from '../../src/assets/images/profile.jpeg'
 const Home = () => {
   const ref = useRef(null);
   const {setShowMenu} = useContext(ProjectContext)
