@@ -65,7 +65,7 @@ const Header = () => {
             Projects
           </Link>
           <a
-          href='/resume.pdf'
+          href='/public/resume.pdf'
           target="_blank"
             className={`${
               dark ? "nav-link-dark" : "nav-link-light"
