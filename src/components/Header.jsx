@@ -64,15 +64,15 @@ const Header = () => {
           >
             Projects
           </Link>
-          <a
-          href='/public/resume.pdf'
+          <Link
+          to='/resume.pdf'
           target="_blank"
             className={`${
               dark ? "nav-link-dark" : "nav-link-light"
             } text-xl cursor-pointer  border-transparent border-4  duration-300`}
           >
             Resume
-          </a>
+          </Link>
           <li
             className={`text-2xl  w-[40px] h-[40px] transition-all duration-200 rounded-full ${
               dark ? "bg-[#4b5563] text-white" : "bg-[#f3f4f6] text-black"
