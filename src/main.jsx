@@ -8,6 +8,7 @@ import Layout from './pages/Layout'
 import About from './pages/About'
 import Projects from './pages/Projects'
 import ProjectContextProvider from './context/ProjectContext'
+
 const router = createBrowserRouter([
   {
     path : '/',

@@ -19,18 +19,8 @@ const About = () => {
           <h1 className='text-center text-4xl font-semibold'>
             Here's My Story
           </h1>
-          <p>
-            Hi, I'm Tofiq Movsumov. I'm a Frontend developer. I enjoy seeking out
-            creative solutions to complex problems. Fast forward to today, I
-            developed and implemented high-preformance web applications using
-            cutting-edge technologies.
-          </p>
-          <p>
-            I love programming because it is so practical, and I can solve
-            real-world challenges with it. For me, programming is a tool to
-            express myself in a creative way. Plus, there is so much to explore
-            that always keeps me excited!
-          </p>
+          <p>Hi, I'm Tofiq Movsumov, a third-year IT student at Baku Engineering University. While studying frontend development, I've developed a passion for understanding the full stack of web development. This drive has led me to explore backend technologies, starting with Node.js through an Udemy course.</p>
+        <p>Programming to me isn't just about solving problems; it's a creative outlet where I can express myself while addressing real-world challenges. Whether it's designing intuitive user interfaces or optimizing server-side operations, each project fuels my excitement for the endless possibilities of programming.</p>
           <p>
             In my free time, I get inspiration from other people's work and try
             out new technologies to build side projects.
