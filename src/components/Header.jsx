@@ -3,6 +3,7 @@ import { MdDarkMode, MdLightMode } from "react-icons/md";
 import { Link, useNavigate } from "react-router-dom";
 import { ProjectContext } from "../context/ProjectContext";
 import HamburgerMenu from "./HamburgerMenu";
+import resume from '/resume.pdf'
 const Header = () => {
   const [showBurger, setShowBurger] = useState(window.innerWidth > 768 ? false : true);
 
@@ -64,15 +65,15 @@ const Header = () => {
           >
             Projects
           </Link>
-          <Link
-          to='../../public/resume.pdf'
+          <a
+          href={resume}
           target="_blank"
             className={`${
               dark ? "nav-link-dark" : "nav-link-light"
             } text-xl cursor-pointer  border-transparent border-4  duration-300`}
           >
             Resume
-          </Link>
+          </a>
           <li
             className={`text-2xl  w-[40px] h-[40px] transition-all duration-200 rounded-full ${
               dark ? "bg-[#4b5563] text-white" : "bg-[#f3f4f6] text-black"
