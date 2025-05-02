@@ -23,15 +23,7 @@ const Footer = () => {
               <FaGithub className="social" />
             </a>
           </li>
-          <li
-            className={`w-[40px] h-[40px] rounded-full ${
-              dark ? "social-link-dark" : "social-link-light"
-            }  flex justify-center items-center text-2xl social-link transition-all duration-200`}
-          >
-            <a href="#" className="transition-all duration-200">
-              <FiMessageCircle className="social" />
-            </a>
-          </li>
+          
           <li
             className={`w-[40px] h-[40px] rounded-full ${
               dark ? "social-link-dark" : "social-link-light"

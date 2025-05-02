@@ -36,7 +36,7 @@ const Header = () => {
               : "text-[#72b626] hover:text-[#374151]"
           }  cursor-pointer`}
         >
-          Tofiq
+          Tofig
         </p>
       </div>
       {showBurger ? <HamburgerMenu/> :   <nav className="nav-list">
