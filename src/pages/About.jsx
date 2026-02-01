@@ -6,16 +6,14 @@ const About = () => {
   const { dark } = useContext(ProjectContext);
   return (
     <section
-      className={`${
-        dark ? "bg-gray-900" : "bg-white"
-      } flex justify-center items-center`}
+      className={`${dark ? "bg-gray-900" : "bg-white"
+        } flex justify-center items-center`}
     >
       <div className="flex flex-col w-[55%] gap-12 py-12 about-div">
         <div className="flex flex-col gap-y-5  tracking-wide">
           <span
-            className={`${
-              dark ? "text-[#ffb703]" : "text-[#72b626]"
-            } text-lg font-semibold text-center`}
+            className={`${dark ? "text-[#ffb703]" : "text-[#72b626]"
+              } text-lg font-semibold text-center`}
           >
             About me
           </span>
@@ -23,8 +21,7 @@ const About = () => {
             Here's My Story
           </h1>
           <p>
-            Hi, I'm Tofig Movsumov, a final-year IT student at Baku Engineering
-            University.I started my journey in tech with frontend development,
+            Hi, I'm Tofig Movsumov, a first-year Computer Science student at University of Tartu.I started my journey in tech with frontend development,
             which sparked my curiosity to understand the entire stack of web
             development. That curiosity led me to explore backend technologies
             like Node.js through self-paced learning, including Udemy courses.
@@ -48,9 +45,8 @@ const About = () => {
             Feel free to reach out and say hello at:{" "}
             <a
               href="mailto:tofiqmvsm2003@gmail.com"
-              className={`cursor-pointer ${
-                dark ? "text-[#ffb703]" : "text-[#72b626]"
-              } underline`}
+              className={`cursor-pointer ${dark ? "text-[#ffb703]" : "text-[#72b626]"
+                } underline`}
             >
               tofiqmvsm2003@gmail.com
             </a>
