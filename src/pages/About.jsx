@@ -44,11 +44,11 @@ const About = () => {
           <p>
             Feel free to reach out and say hello at:{" "}
             <a
-              href="mailto:tofiqmvsm2003@gmail.com"
+              href="mailto:movsumovtofig@gmail.com"
               className={`cursor-pointer ${dark ? "text-[#ffb703]" : "text-[#72b626]"
                 } underline`}
             >
-              tofiqmvsm2003@gmail.com
+              movsumovtofig@gmail.com
             </a>
           </p>
         </div>

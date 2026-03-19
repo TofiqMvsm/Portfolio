@@ -35,7 +35,7 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-      <p className="text-[#9296a0] ">Coded by Tofiq Movsumov - 2024</p>
+      <p className="text-[#9296a0] ">Coded by Tofig Movsumov - 2024</p>
     </footer>
   );
 };
